@@ -1,0 +1,22 @@
+ul{
+    list-style-type: none;
+    margin: 0; /*we have removed any extra margin  */
+    padding: 0; /* we removed any extra padding */
+    overflow: hidden; /* to hide the overflow*/
+    background-color: #333;
+}
+li {
+    /* float: left; */
+    display: inline-block;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+    padding: 24px 36px;
+  }
